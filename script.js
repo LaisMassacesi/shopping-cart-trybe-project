@@ -5,6 +5,8 @@ function createProductImageElement(imageSource) {
   return img;
 }
 
+// function getElementsOfArrayResults
+
 function createCustomElement(element, className, innerText) {
   const e = document.createElement(element);
   e.className = className;
@@ -23,6 +25,17 @@ function createProductItemElement({ sku, name, image }) {
 
   return section;
 }
+
+async function getItemOfArrayResults() {
+  const arrayResults = await fetchProducts();
+  arrayResults.forEach((item) => {
+  const { id, title, thumbnail } = item;
+  const productCard = createProductItemElement({ sku: id, name: title, image: thumbnail });
+  const productsSection = document.querySelector('.items');
+    productsSection.appendChild(productCard);
+  });
+}
+console.log(getItemOfArrayResults());
 
 function getSkuFromProductItem(item) {
   return item.querySelector('span.item__sku').innerText;
