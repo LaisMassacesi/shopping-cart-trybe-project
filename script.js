@@ -13,7 +13,7 @@ function createCustomElement(element, className, innerText) {
 }
 
 function cartItemClickListener(event) {
-
+  event.target.remove('cart_item');
 }
 
 function createCartItemElement({ sku, name, salePrice }) {
@@ -61,6 +61,5 @@ getItemOfArrayResults();
 function getSkuFromProductItem(item) {
   return item.querySelector('span.item__sku').innerText;
 }
-cartItemClickListener();
 
 window.onload = () => { };
