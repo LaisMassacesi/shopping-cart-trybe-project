@@ -1,6 +1,5 @@
 const endpointItem = 'https://api.mercadolibre.com/items/'; 
 const fetchItem = (id) => {
-  console.log('entra no fetch');
   try {
     return fetch(`${endpointItem}${id}`)
     .then((data) => data.json())

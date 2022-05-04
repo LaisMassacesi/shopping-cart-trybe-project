@@ -70,8 +70,8 @@ function assembleCart() {
   addListenerToCartItems();
 }
 
-function getSkuFromProductItem(item) {
-  return item.querySelector('span.item__sku').innerText;
-}
+// function getSkuFromProductItem(item) {
+//   return item.querySelector('span.item__sku').innerText;
+// }
 
 window.onload = () => { assembleCart(); };
