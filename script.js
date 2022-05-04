@@ -14,6 +14,12 @@ function createCustomElement(element, className, innerText) {
 
 function cartItemClickListener(event) {
   event.target.remove('cart_item');
+  saveCartItems();
+}
+
+function addListenerToCartItems() {
+  const allItems = document.querySelectorAll('.cart__item');
+  allItems.forEach((item) => item.addEventListener('click', cartItemClickListener));
 }
 
 function createCartItemElement({ sku, name, salePrice }) {
@@ -31,6 +37,7 @@ async function addToCart(event) {
   const li = createCartItemElement({ sku: id, name: title, salePrice: price });
   const cartItems = document.querySelector('.cart__items');
   cartItems.appendChild(li);
+  saveCartItems();
 }
 
 function createProductItemElement({ sku, name, image }) {
@@ -58,8 +65,13 @@ async function getItemOfArrayResults() {
 }
 getItemOfArrayResults();
 
+function assembleCart() {
+  getSavedCartItems();
+  addListenerToCartItems();
+}
+
 function getSkuFromProductItem(item) {
   return item.querySelector('span.item__sku').innerText;
 }
 
-window.onload = () => { };
+window.onload = () => { assembleCart(); };
