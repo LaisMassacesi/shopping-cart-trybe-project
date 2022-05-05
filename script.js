@@ -32,13 +32,13 @@ function calculateTotal() {
   arrayPrices.forEach((price) => {
     total += price;
   });
-  return total.toFixed(2);
+  return total;
 }
 
 function setInnerTextOfSubtotal() {
   const total = calculateTotal();
   const paragraph = document.querySelector('.total-price');
-  paragraph.innerText = `Subtotal: R$${total}`;
+  paragraph.innerText = total;
 }
 
 function cartItemClickListener(event) {
