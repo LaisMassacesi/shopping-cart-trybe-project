@@ -101,8 +101,25 @@ function assembleCart() {
   addListenerToCartItems();
 }
 
+function emptyCart() {
+  const cart = document.querySelector('.cart__items');
+  const subtotal = document.querySelector('.total-price');
+  subtotal.innerText = '0';
+  cart.innerText = '';
+  saveCartItems();
+}
+
+function addListenerToButtonEmptyCart() {
+  const button = document.querySelector('.empty-cart');
+  button.addEventListener('click', emptyCart);
+}
+
 // function getSkuFromProductItem(item) {
 //   return item.querySelector('span.item__sku').innerText;
 // }
 
-window.onload = () => { assembleCart(); setInnerTextOfSubtotal(); };
+window.onload = () => { 
+  assembleCart(); 
+  setInnerTextOfSubtotal(); 
+  addListenerToButtonEmptyCart(); 
+};
