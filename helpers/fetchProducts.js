@@ -1,15 +1,9 @@
-const endpoint = 'https://api.mercadolibre.com/sites/MLB/search?q=$computador';
-
-const fetchProducts = () => {
-  try {
-    return fetch(endpoint)
-      .then((data) => data.json())
-      .then((response) => response.results);
-  } catch (error) {
-    return error;
-  }
+const fetchProducts = async (param) => {
+  const endpoint = `https://api.mercadolibre.com/sites/MLB/search?q=${param}`;
+  const p = await fetch(endpoint);
+  const r = await p.json();
+  return r;
 };
-fetchProducts();
 
 if (typeof module !== 'undefined') {
   module.exports = {
