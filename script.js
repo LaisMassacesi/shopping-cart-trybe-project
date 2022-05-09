@@ -93,6 +93,7 @@ async function getItemOfArrayResults() {
   const productsSection = document.querySelector('.items');
   productsSection.appendChild(productCard);
   });
+  document.querySelector('.loading').remove();
 }
 
 function assembleCart() {
