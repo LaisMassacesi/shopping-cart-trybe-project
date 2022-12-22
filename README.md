@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto Shopping Cart:rocket:
+# Boas-vindas ao repositório do projeto Shopping Cart!
 
 <h2>Trybe</h2>
 Este repositório contém um projeto desenvolvido durante minha jornada na Trybe.
