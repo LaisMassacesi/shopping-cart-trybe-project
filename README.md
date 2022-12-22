@@ -1,4 +1,18 @@
-# :construction: README customizado em construção ! :construction:
+# Boas-vindas ao repositório do projeto Shopping Cart!:rocket:
+
+<h2>Trybe</h2>
+Este repositório contém um projeto desenvolvido durante minha jornada na Trybe.
+
+_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+
+<h2>Shopping Cart Project</h2>
+
+Neste projeto foi desenvolvido uma aplicação de um carrinho de compras, totalmente dinâmico, consumindo dados da API do Mercado Livre onde também pude aplicar TDD desenvolvendo uma mentalidade orientada a testes.
+
+> Arquivos com código desenvolvido por mim :paperclips:
+- pasta e arquivos do diretório "tests"
+- arquivo "script.js"
+
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
