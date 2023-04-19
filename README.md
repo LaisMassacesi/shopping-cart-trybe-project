@@ -1,4 +1,4 @@
-# Wellcome to repository of Shopping Cart Project!:rocket:
+# Welcome to repository of Shopping Cart Project!:rocket:
 
 
 <h2>Trybe</h2>
@@ -18,7 +18,7 @@ In this project, was developed a application of a dinamic shopping cart in a web
 - Asynchronous tests;
 - Consume data from a API (Mercado Libre);
 
-> Files with code that i developed:paperclips:
+> Files with code i developed:paperclips:
 - ./script.js
 - files and folders in ./tests
 
