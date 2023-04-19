@@ -1,4 +1,28 @@
-# Boas-vindas ao repositório do projeto Shopping Cart!
+# Wellcome to repository of Shopping Cart Project!:rocket:
+
+
+<h2>Trybe</h2>
+This repository contains one project developed during my journey at Trybe.
+
+_"Trybe is a future school to any person who want to improve life and build a success career in technology, where the person only pays when they get a good job."_
+
+<h2>Shopping Cart Project</h2>
+In this project, was developed a application of a dinamic shopping cart in a web page. In this dinamic shopping cart, you can save products adding and removing from the cart, who has a calculator who sum and subtract the total value of purchases. This application consumes data from the Mercado Libre API.
+
+> Skills and practice applied
+- Shell Linux;
+- Git;
+- Javascript;
+- Web Storage;
+- Asynchrony in Javascript;
+- Asynchronous tests;
+- Consume data from a API (Mercado Libre);
+
+> Files with code that i developed:paperclips:
+- ./script.js
+- files and folders in ./tests
+
+# Boas-vindas ao repositório do projeto Shopping Cart!:rocket:
 
 <h2>Trybe</h2>
 Este repositório contém um projeto desenvolvido durante minha jornada na Trybe.
@@ -7,7 +31,16 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 <h2>Shopping Cart Project</h2>
 
-Neste projeto foi desenvolvido uma aplicação de um carrinho de compras, totalmente dinâmico, consumindo dados da API do Mercado Livre onde também pude aplicar TDD desenvolvendo uma mentalidade orientada a testes.
+Neste projeto foi desenvolvido uma aplicação de um carrinho de compras dinâmico em uma página web. Neste carrinho de compras, é possível salvar produtos adicionando e removendo do carrinho, que tem uma calculadora que soma e subtrai o valor total da compra. Esta aplicação consome dados da API do Mercado Livre.
+
+> Habilidades e práticas aplicadas
+- Shell Linux;
+- Git;
+- Javascript;
+- Web Storage;
+- Assincronicidade em Javascript;
+- Testes assíncronos;
+- Consumir dados de uma API (Mercado Livre);
 
 > Arquivos com código desenvolvido por mim :paperclips:
 - pasta e arquivos do diretório "tests"
