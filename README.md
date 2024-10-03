@@ -1,4 +1,4 @@
-# Welcome to repository of Shopping Cart Project!:rocket:
+# Welcome to repository of Shopping Cart Project!
 
 
 <h2>Trybe</h2>
