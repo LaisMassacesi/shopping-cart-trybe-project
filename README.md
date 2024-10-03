@@ -22,7 +22,7 @@ In this project, was developed a application of a dinamic shopping cart in a web
 - ./script.js
 - files and folders in ./tests
 
-# Boas-vindas ao repositório do projeto Shopping Cart!:rocket:
+# Boas-vindas ao repositório do projeto Shopping Cart!
 
 <h2>Trybe</h2>
 Este repositório contém um projeto desenvolvido durante minha jornada na Trybe.
