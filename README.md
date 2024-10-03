@@ -18,7 +18,7 @@ In this project, was developed a application of a dinamic shopping cart in a web
 - Asynchronous tests;
 - Consume data from a API (Mercado Libre);
 
-> Files with code i developed:paperclips:
+> Files with code i developed
 - ./script.js
 - files and folders in ./tests
 
